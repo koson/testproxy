@@ -62,7 +62,6 @@
             this.tbURL.Name = "tbURL";
             this.tbURL.Size = new System.Drawing.Size(573, 20);
             this.tbURL.TabIndex = 1;
-            this.tbURL.Text = "http://www.vocmontoyo.com/rdata.ashx?i=003&n=20";
             // 
             // label1
             // 
