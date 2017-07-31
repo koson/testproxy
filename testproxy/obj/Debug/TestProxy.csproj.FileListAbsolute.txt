@@ -1,0 +1,9 @@
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\bin\Debug\TestProxy.exe.config
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\bin\Debug\TestProxy.exe
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\bin\Debug\TestProxy.pdb
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.csprojResolveAssemblyReference.cache
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.Form1.resources
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.Properties.Resources.resources
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.csproj.GenerateResource.Cache
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.exe
+D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.pdb
