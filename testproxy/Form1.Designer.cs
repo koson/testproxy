@@ -31,18 +31,18 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tbURL = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbResult = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tbHost = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.tbPort = new System.Windows.Forms.TextBox();
-            this.tbUser = new System.Windows.Forms.TextBox();
-            this.tbPassword = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.tbUser = new System.Windows.Forms.TextBox();
+            this.tbPort = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,13 +73,13 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "URL";
             // 
-            // textBox2
+            // tbResult
             // 
-            this.textBox2.Location = new System.Drawing.Point(65, 66);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(573, 474);
-            this.textBox2.TabIndex = 3;
+            this.tbResult.Location = new System.Drawing.Point(65, 66);
+            this.tbResult.Multiline = true;
+            this.tbResult.Name = "tbResult";
+            this.tbResult.Size = new System.Drawing.Size(573, 474);
+            this.tbResult.TabIndex = 3;
             // 
             // label2
             // 
@@ -115,64 +115,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Proxy Setting";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Host";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 92);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Port";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 117);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 13);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "User";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(11, 142);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Password";
-            // 
-            // tbPort
-            // 
-            this.tbPort.Location = new System.Drawing.Point(72, 89);
-            this.tbPort.Name = "tbPort";
-            this.tbPort.Size = new System.Drawing.Size(193, 20);
-            this.tbPort.TabIndex = 9;
-            // 
-            // tbUser
-            // 
-            this.tbUser.Location = new System.Drawing.Point(72, 114);
-            this.tbUser.Name = "tbUser";
-            this.tbUser.Size = new System.Drawing.Size(193, 20);
-            this.tbUser.TabIndex = 10;
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.Location = new System.Drawing.Point(72, 139);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(193, 20);
-            this.tbPassword.TabIndex = 11;
-            this.tbPassword.UseSystemPasswordChar = true;
-            // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -183,13 +125,71 @@
             this.checkBox1.Text = "Use proxy";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // tbPassword
+            // 
+            this.tbPassword.Location = new System.Drawing.Point(72, 139);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(193, 20);
+            this.tbPassword.TabIndex = 11;
+            this.tbPassword.UseSystemPasswordChar = true;
+            // 
+            // tbUser
+            // 
+            this.tbUser.Location = new System.Drawing.Point(72, 114);
+            this.tbUser.Name = "tbUser";
+            this.tbUser.Size = new System.Drawing.Size(193, 20);
+            this.tbUser.TabIndex = 10;
+            // 
+            // tbPort
+            // 
+            this.tbPort.Location = new System.Drawing.Point(72, 89);
+            this.tbPort.Name = "tbPort";
+            this.tbPort.Size = new System.Drawing.Size(193, 20);
+            this.tbPort.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 142);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Password";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(11, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 13);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "User";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(11, 92);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Port";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(11, 67);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Host";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 576);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbResult);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbURL);
@@ -208,7 +208,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox tbURL;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbResult;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbHost;
         private System.Windows.Forms.GroupBox groupBox1;

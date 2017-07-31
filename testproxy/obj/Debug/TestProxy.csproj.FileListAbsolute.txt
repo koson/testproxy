@@ -7,3 +7,15 @@ D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\Te
 D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.csproj.GenerateResource.Cache
 D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.exe
 D:\Dropbox\_TMTDeodorant\PC\TestProxy\testproxy\TestProxy\TestProxy\obj\Debug\TestProxy.pdb
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\obj\Debug\TestProxy.csprojResolveAssemblyReference.cache
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\obj\Debug\TestProxy.Form1.resources
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\obj\Debug\TestProxy.Properties.Resources.resources
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\obj\Debug\TestProxy.csproj.GenerateResource.Cache
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\obj\Debug\TestProxy.exe
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\obj\Debug\TestProxy.pdb
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\bin\Debug\TestProxy.exe.config
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\bin\Debug\TestProxy.exe
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\bin\Debug\TestProxy.pdb
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\bin\Debug\HtmlAgilityPack.dll
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\bin\Debug\HtmlAgilityPack.pdb
+d:\Dropbox\_TMTDeodorant\PC\GITHUB\TestProxy\bin\Debug\HtmlAgilityPack.xml
